@@ -22,8 +22,7 @@ int main()
         
         cout << "- ";
         //mendapat setiap karakter dalam satu baris
-        getline
-        (cin, baris);
+        getline(cin, baris);
         //kondisi false jika baris hanya berisi karakter q
         if (baris == "q") break;
         //menulis dan memasukkan nilai dari variabel baris ke dalam file
@@ -31,7 +30,9 @@ int main()
         
     }
     //menutup file setelah penulisan selesai
-    outfile.close();
+    outfile.close(
+        
+    );
     
     //membuka file dalam mode membaca
     ifstream infile;
