@@ -1,0 +1,1 @@
+ "c:\Pemrograman Dasar\activity 11\" ; if ($?) { g++ ioFileWithPath.cpp -o ioFileWithPath } ; if ($?) { .\ioFileWithPath }
