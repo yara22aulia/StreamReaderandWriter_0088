@@ -30,12 +30,11 @@ int main()
         
     }
     //menutup file setelah penulisan selesai
-    outfile.close(
-        
-    );
+    outfile.close();
     
     //membuka file dalam mode membaca
     ifstream infile;
+    
     //menunjuk ke sebuah file
     infile.open("contohfile.txt");
     
